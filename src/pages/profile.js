@@ -78,7 +78,7 @@ const Profile = () => {
                       Current AR score:
                     </span>{" "}
                     <span className="text-white text-[18px]">
-                      {userInfo.rc_score}%
+                      {userInfo.ar_score}%
                     </span>
                   </p>
                   <p>
