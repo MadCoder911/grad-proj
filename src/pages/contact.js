@@ -190,37 +190,6 @@ const Contact = () => {
                 //
                 onClick={() => {
                   handleFormSubmit();
-                  // if (
-                  //   !form.firstName ||
-                  //   !form.lastName ||
-                  //   !form.title ||
-                  //   !form.company ||
-                  //   !form.interest ||
-                  //   !form.interest ||
-                  //   !form.howInfo ||
-                  //   !form.country ||
-                  //   !form.email ||
-                  //   !form.email.includes("@") ||
-                  //   !form.email.includes(".com") ||
-                  //   form.phone.length < 11 ||
-                  //   form.message.length < 5
-                  // ) {
-                  //   toast.error("Please fill all the input fields");
-                  // } else {
-                  //   toast.success("We will contact you shortly");
-                  //   setForm({
-                  //     firstName: "",
-                  //     lastName: "",
-                  //     title: "",
-                  //     company: "",
-                  //     interest: "",
-                  //     howInfo: "",
-                  //     country: "",
-                  //     email: "",
-                  //     phone: "",
-                  //     message: "",
-                  //   });
-                  // }
                 }}
               >
                 Send Message
