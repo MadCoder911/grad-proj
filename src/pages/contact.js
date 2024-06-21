@@ -144,11 +144,11 @@ const Contact = () => {
               <option value="" selected className="text-gray-400">
                 Select
               </option>
-              <option value="1">Social Media</option>
-              <option value="2">Event</option>
-              <option value="3">Referral</option>
-              <option value="4">Email</option>
-              <option value="5">Other</option>
+              <option value="social media">Social Media</option>
+              <option value="event">Event</option>
+              <option value="referral">Referral</option>
+              <option value="email">Email</option>
+              <option value="other">Other</option>
             </select>
           </div>
           <div className="flex flex-col gap-[35px]  w-[100%] md:w-[50%]">
